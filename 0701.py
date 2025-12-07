@@ -1,7 +1,12 @@
 data = []
 
 with open('input.txt', 'r') as f:
-    old = f.read()
-    data = old.splitlines()
+    data = f.read()
+    # data = old.splitlines()
 
-print(data)
+# total = 0
+
+# for i in data:
+#     total += i.count('^')
+
+print(data.count('^'))
